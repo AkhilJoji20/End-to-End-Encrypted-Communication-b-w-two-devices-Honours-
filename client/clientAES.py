@@ -8,7 +8,7 @@ from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 from cryptography.exceptions import InvalidTag
 
 # --- 1. Setup the Client ---
-host = '192.168.221.231' # IMPORTANT: Change to server's LOCAL IP
+host = 'host ipv4 add' # IMPORTANT: Change to server's LOCAL IP
 port = 9999
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
