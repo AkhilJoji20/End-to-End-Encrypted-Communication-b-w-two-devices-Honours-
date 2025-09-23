@@ -2,7 +2,7 @@ import socket
 
 # --- 1. Setup the Client ---
 # IMPORTANT: Replace 'SERVER_IP_ADDRESS' with the actual local IP of the server.
-host = '192.168.221.231'
+host = 'host ipv4 add'
 port = 9999
 
 # Create the client socket
